@@ -4,27 +4,19 @@
 	padding: 0px;
 	overflow-x: hidden;
 	overflow-y: hidden;
-}
+  }
 
-/*header {
-	display: block;
-}
-*/
 .upper_left {
-	float: left;
+    float: left;
     width: 33%;
-    /*margin-left: 5px;*/
     background-color: #66ffff;
-    height: 200px;
 }
 
 .upper_left p {
-  /*float: left;*/
-  font-size: 450%;
+  font-size: 423.6%;
   font-weight: bold;
   color: blue;
-  padding: 20px;
-  /*margin-left: 5px;*/
+  padding: 5.9%;
 }
 
 .upper_middle {
@@ -32,49 +24,44 @@
 	background-color: #3b3a3a;
 	color: white;
 	font-size: 200%;
-	width: 32%;
-	height: 200px;
+	width: 37%;
 	text-align: center;
 }
 
-.input_methods {
-	/*margin-left: 15px;*/
-	 padding-top: 10px;
-
-}
-
 .input_methods p {
-    padding-bottom: 20px;
+    padding: 3%;
     font-weight: bold;
 }
 
 .upper_middle .input_methods button {
 	font-size: 110%;
 	border-radius: 15px;
-	padding: 10px;
+	padding: 7px;
 	font-weight: bold;
         outline: none;
+        margin-bottom: 2.5%;
 }
 
 .upper_middle .input_methods button:hover {
 	background-color: #ff00ff;
 	color: #ffffff;
-  cursor: pointer;
+        cursor: pointer;
 }
 
 .upper_right {
-	float: left;
+	float: right;
 	background-color: #3b3a3a;
-	width: 35%;
-	height: 200px;
+	width: 30%;
 	text-align: center;
 	clear: right;
 }
 
 .upper_right .algo button {
-	font-size: 170%;
-	margin: 15px;
-	padding: 15px;
+	font-size: 187%;
+	margin-top: 4%;
+        margin-bottom: 5%;
+        margin-right: 5%;
+	padding: 2%;
 	border-radius: 8px;
 	font-weight: bold;
 }
@@ -82,18 +69,8 @@
 .upper_right .algo button:hover {
 	background-color: #00ff00;
 	color: red;
-  cursor: pointer;
+        cursor: pointer;
 }
-/*
-.butt_locked {
-  background-color: white;
- color: black;
-}
-
-.butt_locked:hover {
-   background-color: white;
- color: black;
-}*/
 
  .upper_right .algo .butt_locked {
  background-color: white;
@@ -125,31 +102,13 @@
   color: red;
 }
 
-
-
 section {
-  /*display: -ms-grid;*/
   display: grid;
-  /*-ms-grid-columns: 20% 60% 20%;*/
-      grid-template-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
   background-color: #99ccff;
 }
 
-section #Info_Cont1 {
-  padding: 20%;
-  /*background-color: green;*/
-}
-
 section #array_container {
-  /*display: -webkit-box;
-  display: -ms-flexbox;*/
   display: flex;
-  width: 100%;
   height: 80vh;
-  /*background-color: grey;*/
-}
-
-section #Info_Cont2 {
-  padding: 20%;
-   /*background-color: blue;*/
 }
