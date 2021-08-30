@@ -16,7 +16,7 @@
   font-size: 423.6%;
   font-weight: bold;
   color: blue;
-  padding: 5.9%;
+  padding: 5.2%;
 }
 
 .upper_middle {
@@ -31,6 +31,10 @@
 .input_methods p {
     padding: 3%;
     font-weight: bold;
+}
+
+.input_methods p:nth-child(1) {
+    padding-bottom: 1.7%;
 }
 
 .upper_middle .input_methods button {
@@ -59,7 +63,7 @@
 .upper_right .algo button {
 	font-size: 187%;
 	margin-top: 5%;
-        margin-bottom: 5%;
+        margin-bottom: 5.25%;
         margin-right: 5%;
 	padding: 2%;
 	border-radius: 8px;
